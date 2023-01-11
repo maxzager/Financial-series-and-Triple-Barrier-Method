@@ -17,7 +17,7 @@ The data will be obtained from http://www.kibot.com/free_historical_data.aspx,
 available in the section "free tick intraday data" subsection IVE: "Tick with bid ask
 data".
 
-### Financial Series Treatment
+## Financial Series Treatment
 
 I load the data tick by tick in pandas, and calculate candles (open, high, low, close, vol) 
 hourly, daily, monthly and yearly and then chart each one.
